@@ -1,0 +1,527 @@
+@media (max-width: 1600px) {
+	.oc-stamp {
+		margin-top:10px;
+	}
+}
+
+@media (max-width: 1550px) {
+	.oc-stamp {
+		margin-top:10px;
+	}
+
+	.oc-logo h1 {
+		margin-top:15px;
+	}	
+}
+
+@media (max-width: 1440px) {
+	.oc-stamp {
+		margin-top:10px;
+	}
+
+	.oc-logo h1 {
+		margin-top:10px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.oc-stamp {
+		margin-top:10px;
+	}
+
+	.oc-logo h1 {
+		margin-top:0px;
+	}
+}
+
+@media (max-width: 1360px) {
+	.oc-logo h1 {
+		font-size: 44px; 
+	    line-height: 41px;
+		width:300px;
+		margin-top:14px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.oc-logo h1 {
+		font-size: 40px; 
+	    line-height: 37px;
+		width:300px;
+	}
+	
+	.oc-stamp {
+		margin-top:0px;
+	}
+
+	.bullet-icon img  {
+		width:40px
+	}
+	
+	.bullet-2 {
+		margin-left:0px;
+	}
+
+	.bullet-3 {
+		margin-left:0px;
+	}
+}
+
+
+@media (max-width: 1180px) {
+	.oc-stamp {
+		width:18%;
+	}
+	
+	.oc-logo h1 {
+		margin-top:10px;
+	}	
+}
+
+
+@media (max-width: 1100px) {
+	.oc-logo h1 {
+		font-size: 36px; 
+	    line-height: 35px;
+		width:260px;
+	}
+}
+
+
+
+
+@media (max-width: 1024px) {
+	.oc-logo h1 {
+		font-size: 33px; 
+	    line-height: 29px;
+		width:230px;
+	}
+	
+	.bullet-text  h2 {
+    	font-size: 13px;
+    	line-height: 16px;
+	}
+
+	.home-copy {
+	    margin-top: 420px;
+	}
+	
+	h1 {
+		font-size: 42px;
+		line-height: 38px;
+	}
+	
+	.home-copy {
+	    margin-top: 500px;
+	}
+	
+}
+
+@media (max-width: 930px) {
+	.oc-stamp {
+		margin-top:0px;
+	}
+	.oc-logo h1 {
+		font-size: 30px; 
+	    line-height: 30px;
+		width:200px;
+		margin-top:10px;
+	}
+	.bullet-text  h2 {
+    	font-size: 11.5px;
+    	line-height: 14px;
+	}
+	
+	.bullet-text {
+		margin-top:0px;
+	}
+	
+	.bullet-icon img  {
+		width:30px
+	}
+	
+	.home-bullets-inside {
+	    height: 82px;
+	}
+}
+
+
+@media (max-width: 820px) {
+	.oc-logo h1 {
+		font-size: 28px; 
+	    line-height: 28px;
+		width:180px;
+		margin-top:1px;
+	}
+	
+	.bullet-text  h2 {
+    	font-size: 11px;
+    	line-height: 13.5px;
+	}
+	
+	.bullet-text {
+		margin-top:0px;
+	}
+	
+	.bullet-icon img  {
+		width:24px
+	}
+	
+	.home-bullets-inside {
+	    height: 80px;
+	}
+
+	.email input {
+		font-size: 38px;
+	}
+	
+	.email .button h1 {
+		font-size: 38px; 
+
+	}
+	
+	
+
+	
+}
+
+
+
+@media (max-width: 768px) {
+	
+	.oc-logo-line {
+		margin-left:0px;
+		margin-top:20px;
+	}
+	
+	.oc-stamp {
+		margin-top:0px;
+		width:13%;
+	}
+	.oc-logo h1 {
+		font-size: 42px; 
+	    line-height: 36px;
+		width:440px;
+		padding-left:110px;
+		margin-top:-75px;
+	}
+	
+	
+	.bullet-icon img  {
+		width:100%;
+	}
+	
+	.bullet-text  h2 {	
+		font-size: 14px; 
+    	line-height: 17px;
+	}
+	
+	.home-bullets-inside {
+	    height: 230px;
+		padding: 30px 0 24px 0;
+	}
+	
+	.bullet-2 {
+	
+		margin-top:30px;
+	}
+	
+	.bullet-3 {
+		margin-top:30px;
+	}
+	
+	.oc-logo.scale-img{
+	  transform:translateX(0px)scale(1);
+	  position: absolute;
+	}
+	
+	.home-toe {
+		margin-bottom:110px;
+		height:40px;
+		
+	}
+	
+	.oc-instagram {
+		padding-top:8px;
+	}
+	
+	.email {
+		height:110px;
+	}
+	
+	.email #mce-EMAIL {
+	    width: 40%;
+	}
+	
+	.email input {
+	    font-size: 26px;
+	}
+	
+	.email .button h1 {
+	    font-size: 26px;
+	}
+	
+	
+	.email #mc-embedded-subscribe {
+	    margin-top: 30px;
+		padding: 6px 16px 6px 16px;
+	}
+	
+}
+
+
+
+/* iPad Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.oc-logo-line {
+		margin-left:15px;
+		margin-top:0px;
+	}
+	
+	.oc-stamp {
+		margin-top:0px;
+		width:19%;
+	}
+	.w3-container {
+		padding:0.01em 30px
+	}
+	
+	.oc-logo h1 {
+		font-size: 28px; 
+	    line-height: 26px;
+		width:200px;
+		padding-left:0px;
+		margin-top:5px;
+	}
+	
+	.home-copy {
+	    margin-top: 520px;
+	}
+	
+}
+
+/* iPad Landscape */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+	.oc-logo-line {
+		margin-left:15px;
+		margin-top:0px;
+	}
+	.oc-stamp {
+		margin-top:0px;
+		width:24%;
+	}
+	
+	.oc-logo h1 {
+		font-size: 28px; 
+	    line-height: 26px;
+		width:200px;
+		padding-left:0px;
+		margin-top:12px;
+	}
+	
+	.home-copy {
+	    margin-top: 734px;
+	}
+}
+
+
+
+
+
+@media (max-width: 660px) {	
+	.oc-logo h1 {
+		font-size: 38px; 
+	    line-height: 32px;
+		padding-left:100px;
+		margin-top:-62px;
+	}
+	
+	h1{
+		font-size: 32px;
+		line-height: 28px;
+	    margin-top:0px;
+	}
+	
+}
+
+	
+	
+	
+
+	
+	
+
+@media (max-width: 600px) {	
+	.oc-stamp {
+		margin-top:0px;
+		width:16%;
+	}
+	.oc-logo h1 {
+		font-size: 40px; 
+	    line-height: 36px;
+		width:440px;
+		padding-left:100px;
+		margin-top:-70px;
+	}
+
+	
+		
+}
+
+
+
+
+@media (max-width: 500px) {
+	
+	.w3-container {
+		padding:0.01em 20px
+	}
+	
+	
+	.oc-logo {
+		top:20px;
+	}
+	
+	.oc-logo-line {
+		margin-left:0px;
+		margin-top:17px;
+	}
+	
+	.oc-stamp {
+		margin-top:0px;
+		width:15%;
+
+	}
+	.oc-logo h1 {
+		font-size: 34px; 
+	    line-height: 32px;
+		width:400px;
+		padding-left:90px;
+		margin-top:-62px;
+	}
+	
+	.home-bullets-inside {
+	    padding: 30px 0 30px 0;
+	}
+}
+
+@media (max-width: 414px) { 
+	
+	.email h2, .email input {
+	    margin-left: 20px;
+	}
+	
+	.email h2 {
+		font-size: 13.5px;
+		margin-top: 17px;
+	}
+	
+	
+	.email #mc-embedded-subscribe {
+	   
+	    margin-right:20px;
+
+	}
+	
+	.email input {
+	    margin-left: 20px;
+	    
+	}
+	
+	.oc-stamp {
+		margin-top:0px;
+		width:17%;
+
+	}
+	.oc-logo h1 {
+		font-size: 32px; 
+	    line-height: 29px;
+		width:340px;
+		padding-left:90px;
+		margin-top:-60px;
+	}
+	
+	.home-toe h2 {
+		font-size:13px; 
+	}
+	
+	
+}
+
+
+@media (max-width: 375px) { 
+
+	
+	
+	.oc-stamp {
+		margin-top:0px;
+		width:15%;
+
+	}
+	.oc-logo h1 {
+		font-size: 28px; 
+	    line-height: 27px;
+		width:285px;
+		padding-left:70px;
+		margin-top:-52px;
+	}
+	
+	h2.intro {
+		width:260px;
+	}
+	
+	.email h2 {
+		font-size: 12.4px;
+	}
+
+}
+
+@media (max-width: 360px) { 
+
+	h2 {
+		font-size: 12px;
+	}
+	h2.intro {
+		width:200px;
+	}
+	
+	.email h2, .email input {
+	    margin-left: 16px;
+	}
+	
+	.email h2 {
+		font-size: 11.5px;
+	}
+	
+	.home-toe h2, .bullet-text h2 {
+		font-size:12px; 
+	}
+	
+}
+
+@media (max-width: 320px) {
+
+	h2.intro {
+		width:200px;
+	}
+	
+	.email h2, .email input {
+	    margin-left: 10px;
+	}
+	
+	.email h2 {
+		font-size: 10.5px;
+		margin-top:14px;
+	}
+	
+	.home-toe h2, .bullet-text h2 {
+		font-size:12px; 
+	}
+	
+	
+	
+	
+	
+	
+} 
+	
