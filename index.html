@@ -49,6 +49,8 @@
 	
 <div class="video-content">			
 	
+	
+	
 	<div class="oc-logo">
 		<div class="w3-container">
 	  				
@@ -65,7 +67,7 @@
 		</div>
 	</div>
 			
-	
+	<div class="oc-logo-bg"></div>
 		
 	  				
 		<div class="home-copy">
@@ -76,7 +78,7 @@
 						<h1>Hard workouts are great for you, but all that sweating and frequent showering creates chaos for your skin and hair.</h1>
 							
 						<h1>OffCourt’s specially formulated products are packed with proteins, prebiotics
-&amp; active ingredients to counteract the side effects of frequent sweating.</h1>
+and active ingredients to counteract the side effects of frequent sweating.</h1>
 					</div>
 				</div>
 				
@@ -152,8 +154,10 @@
 	$(window).on("scroll", function() {
 	    if ($(window).scrollTop() > 50) {
 	        $(".oc-logo").addClass("scale-img");
+			$(".oc-logo-bg").addClass("scale-img-2");
 	    } else {
 	        $(".oc-logo").removeClass("scale-img");
+			$(".oc-logo-bg").removeClass("scale-img-2");
 	    }
 	});
 
