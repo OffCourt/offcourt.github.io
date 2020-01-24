@@ -1,0 +1,314 @@
+/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../img/preload.gif');
+   background-repeat: no-repeat; 
+   background-color: #000;
+   background-position: center;
+}
+
+
+body {
+    font-family: "NHaasGroteskDSStd-55Rg", sans-serif;
+    margin: 0;
+    font-weight: 300;
+	background: #000;
+}
+
+
+
+
+
+hr.hr-white {
+	border:1px #fff solid;
+	margin: 0;
+}
+
+hr.hr-black {
+	border:1px #000 solid;
+	margin: 0;
+}
+
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "NHaasGroteskDSStd-55Rg", serif; 
+	font-size: 48px; 
+    line-height: 44px;
+	color: #00C78E;
+	margin: 0;
+	font-weight: 300;
+}
+
+
+h2 {
+  	font-family: "NHaasGroteskDSStd-55Rg", serif; 
+	font-size: 14px; 
+    line-height: 17px;
+	color: #00C78E;
+	margin: 0;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #00C78E;
+    font-weight: 400;
+}
+
+
+p {
+  	font-family: "Arial Narrow", sans-serif; 
+  	font-weight: normal;
+  	letter-spacing: -0.2px;
+  	font-size: 20px; 
+  	line-height: 26px;
+    color: #000;
+	margin-top:0px;
+	margin-bottom: -10px;
+}
+
+
+.oc-logo {
+    position: fixed;
+    top: 40px; 
+	left: 0px;
+    transition: 0.3s all;
+	transform: scale(1);
+	transform-origin: top left;
+}
+
+
+.oc-logo.scale-img{
+  transform:translateX(40px)scale(0.4);
+  position: fixed;
+}
+
+.oc-logo-line {
+	margin-left:30px;
+}
+
+.oc-text-logo {
+	width:100%;
+}
+
+.oc-stamp {
+	width:20%;
+	margin-top:25px;
+}
+
+.oc-logo h1 {
+	margin-top:25px;
+	width:320px;
+}
+
+.home-copy {
+	margin-top:550px;
+}
+
+.home-copy h1 {
+	margin-top:20px;
+}
+
+.bullet-2 {
+	margin-left:80px;
+}
+
+.bullet-3 {
+	margin-left:80px;
+}
+
+.home-bullets-inside {
+	border-top:2px solid #00C78E;
+	border-bottom:2px solid #00C78E;
+	padding: 24px 0 24px 0;	
+	margin: 40px 0 50px 0;
+	height:88px;
+}
+
+.bullet-icon img {
+	width:100%;
+}
+
+.bullet-icon {
+	float:left;
+	margin-right:20px;
+}
+
+.bullet-text {
+	float:left;
+}
+
+.home-toe {
+	background:#C5D1EB;
+	margin-bottom:120px;
+	height:50px;
+}
+
+.home-toe h2 {
+	color:#000;
+	font-weight:500;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+	
+}
+
+.oc-instagram {
+	padding-top:13px;
+}
+.oc-instagram a {
+	color:#000;
+}
+
+.instagram-icon, .instagram-text {
+	float:left;
+}
+
+.instagram-text {
+	margin-left:20px;
+	padding-top:4px;
+}
+
+.email {
+	position:fixed;
+	bottom:0;
+	left:0;
+	background:#00C78E;
+	height:120px;	
+	width:100%;
+	z-index:999;
+}
+
+.email #mc_embed_signup {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+	margin-top: -22px;
+}
+
+.email .response {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.email #mce-EMAIL {
+    width: 60%;
+    margin-right: 7px;
+    line-height: 1;
+	color: #000;
+}
+
+.email #mce-EMAIL::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+.email input {
+    position: relative;
+    float: left;
+    outline: 0;
+    border-radius: 0;
+  	font-family: "NHaasGroteskDSStd-55Rg", serif; 
+	font-size: 48px;
+    background: none;
+    border: 0;
+    color: #000;
+    line-height: 0;
+	margin-left: 50px;
+}
+
+.email #mc-embedded-subscribe {
+	background:#000;
+	border-radius:10px;
+    margin-right: 50px;
+    float: right;
+	padding:20px 30px 20px 30px;
+	margin-top:2px;
+}
+
+.email .button {
+    position: relative;
+    float: left;
+  	font-family: "NHaasGroteskDSStd-55Rg", serif; 
+	font-size: 48px; 
+    /* font-size: 18px; */
+    border:none;
+    cursor: pointer;
+}
+
+
+.email .button h1 {
+	color:#00C78E;
+}
+
+.email h1 {
+	color:#000;
+}
+
+
+.email h2 {
+	margin-left: 50px;
+	color:#000;
+	font-weight:500;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+	margin-top:20px;
+	z-index:20px;
+}
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+	
+}
+
+
+@media (max-width: 500px) { 
+
+
+	
+	
+	
+}
+
+@media (max-width: 375px) { 
+	.oc-logo.scale-img{
+	  transform: scale(1);
+	  top: -40px; 
+	}
+}
+
