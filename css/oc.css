@@ -1,4 +1,4 @@
-/*************************************************************************************************************
+﻿/*************************************************************************************************************
 GLOBAL
 *************************************************************************************************************/
 
@@ -85,12 +85,35 @@ p {
     transition: 0.3s all;
 	transform: scale(1);
 	transform-origin: top left;
+	z-index:99;
+}
+
+.oc-logo.scale-img {
+  transform:translateX(40px)scale(0.4);
+  position: fixed;
+  top:0px;
+  padding-top:40px;
+
+}
+
+.oc-logo-bg {
+    position: fixed;
+    top: 40px; 
+	left: 0px;
+    transition: 0.3s all;
+	transform: scale(1);
+	transform-origin: top left;
+	width:100%;
+	background: transparent;
 }
 
 
-.oc-logo.scale-img{
-  transform:translateX(40px)scale(0.4);
-  position: fixed;
+.oc-logo-bg.scale-img-2 {
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+    position: fixed;
+    top:0px;
+    padding-top:40px;
+	transform: scaleY(5);
 }
 
 .oc-logo-line {
@@ -112,7 +135,7 @@ p {
 }
 
 .home-copy {
-	margin-top:550px;
+	margin-top:520px;
 }
 
 .home-copy h1 {
@@ -311,4 +334,7 @@ video {
 	  top: -40px; 
 	}
 }
+
+
+
 
