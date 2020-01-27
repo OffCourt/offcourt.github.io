@@ -239,7 +239,7 @@
 	}
 	
 	.home-toe {
-		margin-bottom:110px;
+		margin-bottom:90px;
 		height:40px;
 		
 	}
@@ -249,7 +249,7 @@
 	}
 	
 	.email {
-		height:110px;
+		height:90px;
 	}
 	
 	.email #mce-EMAIL {
@@ -297,7 +297,7 @@
 	}
 	
 	.home-copy {
-	    margin-top: 520px;
+	    margin-top: 540px;
 	}
 	
 	.bullet-icon img {
@@ -321,9 +321,7 @@
 	    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)); /* Standard syntax (must be last) */
 
 	}
-	
 
-	
 	
 }
 
@@ -357,15 +355,18 @@
 }
 
 
-/* iPad Landscape */
+/* 580 */
 @media only screen and (max-height: 580px) {
-
-	
 	.home-copy {
 	    margin-top: 324px;
 	}
-	
+}
 
+/* 580 */
+@media only screen and (max-height: 680px) {
+	.home-copy {
+	    margin-top: 384px;
+	}
 }
 
 
@@ -577,7 +578,47 @@
 	    margin-top: 220px;
 	}
 	
-	
-	
 } 
+
+/* Pixel2 */
+@media only screen and (device-width: 411px) and (device-height: 731px) { 
+	.home-copy {
+	    margin-top: 450px;
+	}
+}
+
+/* Pixel2 XL */
+@media only screen and (device-width: 411px) and (device-height: 823px) { 
+	.home-copy {
+	    margin-top: 536px;
+	}
+}
+
+/* iPhoneX */
+@media only screen and (device-width: 375px) and (device-height: 812px) { 
+	.home-copy {
+	    margin-top: 480px;
+	}
+}
+
+/* iPhone678+ */
+@media only screen and (device-width: 414px) and (device-height: 736px) { 
+	.home-copy {
+	    margin-top: 450px;
+	}
+}
+
+/* iPhone678 */
+@media only screen and (device-width: 375px) and (device-height: 667px) { 
+	.home-copy {
+	    margin-top: 340px;
+	}
+}
+
+/* iPhone678 */
+@media only screen and (device-width: 320px) and (device-height: 568px) { 
+	.home-copy {
+	    margin-top: 240px;
+	}
+}
 	
