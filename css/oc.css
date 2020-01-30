@@ -24,9 +24,6 @@ body {
 }
 
 
-
-
-
 hr.hr-white {
 	border:1px #fff solid;
 	margin: 0;
@@ -135,7 +132,7 @@ p {
 }
 
 .home-copy {
-	margin-top:520px;
+	margin-top:480px;
 }
 
 .home-copy h1 {
@@ -148,6 +145,10 @@ p {
 
 .bullet-3 {
 	margin-left:80px;
+}
+
+.home-bullets {
+		margin-bottom:160px;
 }
 
 .home-bullets-inside {
@@ -173,8 +174,8 @@ p {
 
 .home-toe {
 	background:#C5D1EB;
-	margin-bottom:120px;
-	height:50px;
+	height:40px;
+	width:100%;
 }
 
 .home-toe h2 {
@@ -182,11 +183,11 @@ p {
 	font-weight:500;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: #000;
-	
 }
 
 .oc-instagram {
-	padding-top:13px;
+	padding-top:8px;
+	margin-left: 50px;
 }
 .oc-instagram a {
 	color:#000;
@@ -196,17 +197,20 @@ p {
 	float:left;
 }
 
-.instagram-text {
-	margin-left:20px;
-	padding-top:4px;
+.instagram-text h2 {
+		margin-left:20px!important;
+		margin-top: 5px!important;
+		border-bottom:2px solid #000;
 }
+
+
 
 .email {
 	position:fixed;
 	bottom:0;
 	left:0;
 	background:#00C78E;
-	height:120px;	
+	height:160px;	
 	width:100%;
 	z-index:999;
 }
@@ -217,7 +221,7 @@ p {
     margin: 0 auto;
     display: block;
     width: 100%;
-	margin-top: -22px;
+	margin-top: -44px;
 }
 
 .email .response {
@@ -257,7 +261,7 @@ p {
     margin-right: 50px;
     float: right;
 	padding:20px 30px 20px 30px;
-	margin-top:2px;
+	margin-top:24px;
 }
 
 .email .button {
@@ -314,19 +318,7 @@ video {
 
 
 
-@media (max-width: 768px) {
 
-	
-}
-
-
-@media (max-width: 500px) { 
-
-
-	
-	
-	
-}
 
 @media (max-width: 375px) { 
 	.oc-logo.scale-img{
