@@ -237,7 +237,7 @@ p {
 }
 
 .email #mce-EMAIL::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-
+ 
   opacity: 1; /* Firefox */
 }
 
