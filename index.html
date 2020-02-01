@@ -166,13 +166,13 @@ and active ingredients to counteract the side effects of frequent sweating.</h1>
     //TODO add logic on adding retina videos    
      if (width< 500){
             console.log("let’s call this mobile sized");
-            var videoTag = "\<video preload=\"auto\" type=\"video/mp4\" width=\"100%\" autoplay muted loop src=\"" +smallVideo +"\"/\>";
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
             console.log(videoTag);
             document.getElementById('video').innerHTML = videoTag;
           
             }
     else{
-            var videoTag = "\<video preload=\"auto\" type=\"video/mp4\" width=\"100%\" autoplay muted loop src=\"" +bigVideo +"\"/\>";
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
             document.getElementById('video').innerHTML = videoTag;
 
     }
