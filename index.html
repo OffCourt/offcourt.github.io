@@ -10,7 +10,6 @@
 
   gtag('config', 'UA-157443489-1');
 </script>
-
 <title>OffCourt</title>
 <meta charset="UTF-8">
 
@@ -28,9 +27,7 @@
 
 <div class="preloader"></div>
 
-<video preload="auto" playsinline autoplay muted loop>
-    			<source src="img/LP_15_1440.mp4" type="video/mp4">
-</video>	
+<div id="video"></div>	
 
 <div class="email">
 	
@@ -159,6 +156,30 @@ and active ingredients to counteract the side effects of frequent sweating.</h1>
 </script> 
 		
 <script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo="img/LP_15_Thin_1.mp4";
+    var bigVideo = "img/LP_15_1440_1.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" autoplay muted loop src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('video').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" autoplay muted loop src=\"" +bigVideo +"\"/\>";
+            document.getElementById('video').innerHTML = videoTag;
+
+    }
+
+</script>
+		
+<script>
 	$(window).on("scroll", function() {
 	    if ($(window).scrollTop() > 50) {
 	        $(".oc-logo").addClass("scale-img");
@@ -174,6 +195,7 @@ and active ingredients to counteract the side effects of frequent sweating.</h1>
 <script>window.$kol_jquery = window.jQuery</script>
 <script src="https://cdn.kickoffpages.com/widgets/1.9.9/kol_any_form.js"></script>
 <script src='https://cdn.kickoffpages.com/w/139867/283888.js'></script>
+
 		
 </body>
 </html>
