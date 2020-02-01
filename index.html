@@ -161,13 +161,12 @@ and active ingredients to counteract the side effects of frequent sweating.</h1>
     var dpr = window.devicePixelRatio;
 //initialise 2 videos — 
 //“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
-    var smallVideo = "img/LP_15_Thin_1.mp4";
-    var bigVideo = "img/LP_15_1440_1.mp4";
+		// 2020-02-01 nadnoslen - offloaded the hosting of the videos to a paid vimeo account that offers this ability.
+    var smallVideo = "https://player.vimeo.com/external/388739384.sd.mp4?s=1e7e6e55d95962cea3478cd5a5897e91d226e817&profile_id=165";
+    var bigVideo = "https://player.vimeo.com/external/388738492.sd.mp4?s=34162fcbf59e7e30aa2b7a9dcee470d9e9b3a856&profile_id=164";
     //TODO add logic on adding retina videos    
      if (width< 500){
-            console.log("let’s call this mobile sized");
           var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
-            console.log(videoTag);
             document.getElementById('video').innerHTML = videoTag;
           
             }
